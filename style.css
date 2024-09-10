@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+section {
+    padding: 40px;
+    margin: 20px 0;
+}
+
+#hero {
+    background: #f4f4f4;
+    padding: 60px 20px;
+}
+
+.feature-box, .price-option {
+    display: inline-block;
+    width: 45%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e7e7e7;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
